@@ -1,0 +1,13 @@
+{
+  "type" : "MAVEN_DEPENDENCY",
+  "properties" : {
+    "maven" : "org.apache.camel:camel-jacksonxml:3.18.0"
+  },
+  "id" : "40e4219e-e0c8-4be9-9f4e-dfa3340c488c",
+  "name" : "CamelJackson",
+  "description" : "CamelJackson",
+  "createdAt" : "2023-12-12T03:48:14.812708459",
+  "updatedAt" : "2023-12-12T03:57:32.614145714",
+  "createdBy" : "5e748aa0-2151-41e3-a674-c838e455be1a",
+  "updatedBy" : "5e748aa0-2151-41e3-a674-c838e455be1a"
+}

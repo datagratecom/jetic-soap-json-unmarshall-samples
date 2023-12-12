@@ -1,0 +1,14 @@
+{
+  "type" : "SOURCE_DEFINITIONS",
+  "properties" : {
+    "content" : "import org.apache.camel.component.jacksonxml.JacksonXMLDataFormat;\nimport com.fasterxml.jackson.dataformat.xml.XmlMapper;\nimport com.fasterxml.jackson.databind.MapperFeature;\nimport org.apache.camel.BindToRegistry;\nimport org.oorsprong.websamples.*;\n\nimport javax.xml.bind.JAXBContext;\nimport javax.xml.bind.JAXBException;\n\npublic class ConfigureJacksonXmlDataFormatBean {\n\n    @BindToRegistry(\"jacksonXmlDataFormat\")\n    public JacksonXMLDataFormat jacksonXmlDataFormat() {\n        JacksonXMLDataFormat jacksonXmlDataFormat = new JacksonXMLDataFormat();\nXmlMapper xmlMapper = new XmlMapper();\n      xmlMapper.configure(MapperFeature.ACCEPT_CASE_INSENSITIVE_PROPERTIES, true);\n\t\t\tjacksonXmlDataFormat.setXmlMapper(xmlMapper);\n\n        // Create JacksonXmlDataFormat and se\n        return jacksonXmlDataFormat;\n    }\n}\n",
+    "filename" : "ConfigureJacksonXmlDataFormatBean.java"
+  },
+  "id" : "4f833bce-d9c5-4d5e-ab81-fc8379ac6a8a",
+  "name" : "JacksonConfig",
+  "description" : "JacksonConfig",
+  "createdAt" : "2023-12-12T06:44:50.897987414",
+  "updatedAt" : "2023-12-12T07:10:55.090580453",
+  "createdBy" : "5e748aa0-2151-41e3-a674-c838e455be1a",
+  "updatedBy" : "5e748aa0-2151-41e3-a674-c838e455be1a"
+}

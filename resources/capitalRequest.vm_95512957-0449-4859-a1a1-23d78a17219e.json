@@ -1,0 +1,17 @@
+{
+  "type" : "RESOURCE_FILE",
+  "properties" : {
+    "compression" : "false",
+    "content" : "Hello from text.txt",
+    "file" : "data:application/octet-stream;base64,PHNvYXBlbnY6RW52ZWxvcGUgeG1sbnM6c29hcGVudj0iaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvc29hcC9lbnZlbG9wZS8iIHhtbG5zOndlYj0iaHR0cDovL3d3dy5vb3JzcHJvbmcub3JnL3dlYnNhbXBsZXMuY291bnRyeWluZm8iPgogICA8c29hcGVudjpIZWFkZXIvPgogICA8c29hcGVudjpCb2R5PgogICAgICA8d2ViOkZ1bGxDb3VudHJ5SW5mbz4KICAgICAgICAgPHdlYjpzQ291bnRyeUlTT0NvZGU+JGV4Y2hhbmdlLnByb3BlcnRpZXMuY291bnRyeUNvZGU8L3dlYjpzQ291bnRyeUlTT0NvZGU+CiAgICAgIDwvd2ViOkZ1bGxDb3VudHJ5SW5mbz4KICAgPC9zb2FwZW52OkJvZHk+Cjwvc29hcGVudjpFbnZlbG9wZT4=",
+    "filename" : "capitalRequest.vm",
+    "type" : "File"
+  },
+  "id" : "95512957-0449-4859-a1a1-23d78a17219e",
+  "name" : "capitalRequest.vm",
+  "description" : "capitalRequest.vm",
+  "createdAt" : "2023-12-12T03:21:11.1863503",
+  "updatedAt" : "2023-12-12T07:05:50.586975588",
+  "createdBy" : "5e748aa0-2151-41e3-a674-c838e455be1a",
+  "updatedBy" : "5e748aa0-2151-41e3-a674-c838e455be1a"
+}
