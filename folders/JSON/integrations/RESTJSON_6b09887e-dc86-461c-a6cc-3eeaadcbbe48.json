@@ -1,0 +1,47 @@
+{
+  "revision" : 2,
+  "compression" : false,
+  "dataAnalyzer" : true,
+  "replicas" : 1,
+  "openApiUuid" : null,
+  "currentProfileUuid" : "b8a372c9-3281-47d4-9e6d-cb55d44c1887",
+  "parameterGroupUuids" : [ ],
+  "repoResourceUuids" : [ ],
+  "routeDefinitions" : [ {
+    "id" : 1,
+    "camelRouteId" : "route-1",
+    "enabled" : true,
+    "routeId" : 1,
+    "route" : [ {
+      "name" : "timer",
+      "nodeId" : "timer-00-id",
+      "description" : "",
+      "properties" : {
+        "_type" : "timer",
+        "active" : true,
+        "advancedParameters" : [ ],
+        "camelGroup" : "component",
+        "daemon" : true,
+        "delay" : "1000",
+        "fixedRate" : false,
+        "name" : "timer",
+        "period" : "1000",
+        "repeatCount" : "0",
+        "setScheduleTime" : false,
+        "time" : "2021-12-31 00:00:00",
+        "timerName" : "timer",
+        "url" : ""
+      },
+      "_type" : "timer",
+      "kameletPropertiesUrl" : "?timerName=timer&period=1000&repeatCount=0&delay=1000&fixedRate=false&daemon=true&setScheduleTime=false&time=2021-12-31 00:00:00"
+    } ]
+  } ],
+  "traits" : [ ],
+  "id" : "6b09887e-dc86-461c-a6cc-3eeaadcbbe48",
+  "name" : "RESTJSON",
+  "description" : "REST API JSON Unmarshal",
+  "createdAt" : "2023-12-12T13:55:34.435529052",
+  "updatedAt" : "2023-12-12T13:55:50.861725302",
+  "createdBy" : "5e748aa0-2151-41e3-a674-c838e455be1a",
+  "updatedBy" : "5e748aa0-2151-41e3-a674-c838e455be1a"
+}
